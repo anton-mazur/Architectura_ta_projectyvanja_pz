@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"PaymentCaptured","type":"object","required":["type","eventId","orderId","amount","ts"],"properties":{"type":{"const":"PaymentCaptured"},"eventId":{"type":"string"},"orderId":{"type":"string"},"amount":{"type":"number"},"ts":{"type":"string","format":"date-time"}}}

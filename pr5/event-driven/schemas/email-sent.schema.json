@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"EmailSent","type":"object","required":["type","eventId","orderId","to","ts"],"properties":{"type":{"const":"EmailSent"},"eventId":{"type":"string"},"orderId":{"type":"string"},"to":{"type":"string","format":"email"},"ts":{"type":"string","format":"date-time"}}}
