@@ -1,0 +1,9 @@
+from typing import Protocol
+
+from .product import Product
+
+
+class ProductRepository(Protocol):
+    def create(self, product: Product) -> Product: ...
+
+    def list(self) -> list[Product]: ...
