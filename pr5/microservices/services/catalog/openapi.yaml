@@ -1,0 +1,6 @@
+openapi: 3.0.3
+info: {title: Catalog service, version: 1.0.0}
+paths:
+  /items:
+    get:
+      responses: {'200': {description: Items}}
